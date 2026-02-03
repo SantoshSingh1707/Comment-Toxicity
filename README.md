@@ -57,12 +57,20 @@ Comment-Toxicity/
 git clone https://github.com/SantoshSingh1707/Comment-Toxicity.git
 cd Comment-Toxicity
 pip install -r requirements.txt
-
+```
+Install required dependencies:
+```bash
+pip install -r requirements.txt
+```
+Open the Jupyter Notebook:
+```bash
 jupyter notebook
+```
 
-Run Comment.ipynb to train the model and evaluate results.
+Run ```Comment.ipynb``` to train the model and evaluate results.
 
-Results
+
+## Results
 
 The model successfully  classify multi-label toxicity classification
 
@@ -70,10 +78,11 @@ Performance was evaluated using standard classification metrics
 
 The trained model was saved for future predictions
 
-Future Enhancements
+## Future Enhancements
 
 Deploy the model as a web application
 
 Improve accuracy using advanced NLP models such as LSTM or Transformers
 
 Optimize preprocessing and model efficiency
+
