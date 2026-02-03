@@ -1,6 +1,6 @@
 # Comment Toxicity Detection
 
-A Machine Learning project that detects whether a given text comment is **toxic or non-toxic** using Natural Language Processing (NLP) techniques.  
+A Machine Learning project that detects whether a given text comment is **hate speech, insults, and threat** using Natural Language Processing (NLP) techniques.  
 This project aims to help identify harmful or abusive language in online discussions.
 
 ---
@@ -38,3 +38,42 @@ It includes multiple CSV files for training and testing.
 ---
 
 ## ⚙️ Project Structure
+
+Comment-Toxicity/
+│
+├── Comment.ipynb # Data preprocessing, training, and evaluation
+├── README.md # Project documentation
+├── requirements.txt # Python dependencies
+├── data/ # Dataset files
+└── toxic.h5 # Trained model
+
+
+---
+
+## Installation and Setup
+
+1. Clone the repository:
+```bash
+git clone https://github.com/SantoshSingh1707/Comment-Toxicity.git
+cd Comment-Toxicity
+pip install -r requirements.txt
+
+jupyter notebook
+
+Run Comment.ipynb to train the model and evaluate results.
+
+Results
+
+The model successfully  classify multi-label toxicity classification
+
+Performance was evaluated using standard classification metrics
+
+The trained model was saved for future predictions
+
+Future Enhancements
+
+Deploy the model as a web application
+
+Improve accuracy using advanced NLP models such as LSTM or Transformers
+
+Optimize preprocessing and model efficiency
